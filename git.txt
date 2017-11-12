@@ -1,0 +1,6 @@
+$ git init   把当前目录变成git可以管理的仓库
+$ git add bluetooth3  使用命令添加到暂存区里去
+$ git commit -m "bluetooth3"  用命令告诉git,把文件提交到仓库
+$ git remote add origin https://github.com/heiren123/bluetooth3.git   把一个已有的本地仓库与之关联
+$ git push -u origin master     将本地仓库分支master内容推送到远程仓库去
+git clone  https://github.com/heiren123/progream   使用命令克隆一个本地库
